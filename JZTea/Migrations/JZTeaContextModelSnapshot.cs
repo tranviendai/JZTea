@@ -116,7 +116,7 @@ namespace JZTea.Migrations
                             image = "sp1.png",
                             isPublish = true,
                             name = "Okinawa Coffee Milk Tea",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9854),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7071),
                             price = 2.21
                         },
                         new
@@ -128,7 +128,7 @@ namespace JZTea.Migrations
                             image = "sp2.png",
                             isPublish = true,
                             name = "Okinawa Oreo Cream Milk Tea",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9867),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7076),
                             price = 2.21
                         },
                         new
@@ -140,7 +140,7 @@ namespace JZTea.Migrations
                             image = "sp3.png",
                             isPublish = true,
                             name = "Black Pearl Mango Milk Tea",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9870),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7078),
                             price = 2.21
                         },
                         new
@@ -152,7 +152,7 @@ namespace JZTea.Migrations
                             image = "sp4.png",
                             isPublish = true,
                             name = "Okinawa Milk Tea",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9873),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7081),
                             price = 2.21
                         },
                         new
@@ -164,7 +164,7 @@ namespace JZTea.Migrations
                             image = "sp5.png",
                             isPublish = true,
                             name = "Matcha Red Bean Milk Tea",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9876),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7083),
                             price = 2.21
                         },
                         new
@@ -176,7 +176,7 @@ namespace JZTea.Migrations
                             image = "sp6.png",
                             isPublish = true,
                             name = "Oolong Milk Tea 3J",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9878),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7087),
                             price = 2.21
                         },
                         new
@@ -188,7 +188,7 @@ namespace JZTea.Migrations
                             image = "sp7.png",
                             isPublish = true,
                             name = "Red Bean Pudding Milk Tea",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9881),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7089),
                             price = 2.21
                         },
                         new
@@ -200,7 +200,7 @@ namespace JZTea.Migrations
                             image = "sp8.png",
                             isPublish = true,
                             name = "Milk Tea & Black Pearl Ice Cream",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9884),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7091),
                             price = 1.48
                         },
                         new
@@ -212,7 +212,7 @@ namespace JZTea.Migrations
                             image = "sp9.png",
                             isPublish = true,
                             name = "Milk Tea Ice Cream",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9886),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7093),
                             price = 1.48
                         },
                         new
@@ -224,7 +224,7 @@ namespace JZTea.Migrations
                             image = "sp10.png",
                             isPublish = true,
                             name = "Alisan Fruit Tea",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9889),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7096),
                             price = 1.8
                         },
                         new
@@ -236,7 +236,7 @@ namespace JZTea.Migrations
                             image = "sp11.png",
                             isPublish = true,
                             name = "Ai-yu Lemon and White Pearl",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9891),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7098),
                             price = 1.8
                         },
                         new
@@ -248,7 +248,7 @@ namespace JZTea.Migrations
                             image = "sp12.png",
                             isPublish = true,
                             name = "Pink Peach Plum Seeds",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9894),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7100),
                             price = 1.8
                         },
                         new
@@ -260,7 +260,7 @@ namespace JZTea.Migrations
                             image = "sp13.png",
                             isPublish = true,
                             name = "Pink Peach Plum Seeds",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9897),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7104),
                             price = 1.8
                         },
                         new
@@ -272,7 +272,7 @@ namespace JZTea.Migrations
                             image = "sp14.png",
                             isPublish = true,
                             name = "Golden Milk Peaches Ice Snow",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9899),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7107),
                             price = 2.1099999999999999
                         },
                         new
@@ -284,7 +284,7 @@ namespace JZTea.Migrations
                             image = "sp15.png",
                             isPublish = true,
                             name = "Pink Peach Ice Snow",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9902),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7109),
                             price = 2.1099999999999999
                         },
                         new
@@ -296,7 +296,7 @@ namespace JZTea.Migrations
                             image = "sp16.png",
                             isPublish = true,
                             name = "Strawberry Choco Cookie Smoothie",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9904),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7111),
                             price = 2.1099999999999999
                         },
                         new
@@ -308,7 +308,7 @@ namespace JZTea.Migrations
                             image = "sp17.png",
                             isPublish = true,
                             name = "Mint Cookie Smoothie",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9908),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7113),
                             price = 2.1099999999999999
                         },
                         new
@@ -320,7 +320,7 @@ namespace JZTea.Migrations
                             image = "sp18.png",
                             isPublish = true,
                             name = "Strawberry Oreo Smoothie",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 855, DateTimeKind.Local).AddTicks(9911),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7116),
                             price = 2.1099999999999999
                         },
                         new
@@ -332,7 +332,7 @@ namespace JZTea.Migrations
                             image = "sp19.png",
                             isPublish = true,
                             name = "Iced Matcha",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 856, DateTimeKind.Local).AddTicks(42),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7152),
                             price = 2.1099999999999999
                         },
                         new
@@ -344,7 +344,7 @@ namespace JZTea.Migrations
                             image = "sp20.png",
                             isPublish = true,
                             name = "Yakult Peach Crushed Stone",
-                            postDate = new DateTime(2023, 7, 8, 22, 5, 59, 856, DateTimeKind.Local).AddTicks(45),
+                            postDate = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(7155),
                             price = 2.1099999999999999
                         });
                 });
@@ -433,6 +433,69 @@ namespace JZTea.Migrations
                             image = "tp09.png",
                             name = "Pudding",
                             price = 0.5
+                        });
+                });
+
+            modelBuilder.Entity("JZTea.Models.User", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<DateTime?>("DateCreated")
+                        .HasMaxLength(100)
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("FullName")
+                        .HasMaxLength(42)
+                        .HasColumnType("nvarchar(42)");
+
+                    b.Property<string>("Image")
+                        .HasMaxLength(2147483647)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Role")
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasMaxLength(72)
+                        .HasColumnType("nvarchar(72)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("User", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "187c8120-019f-4433-9edb-04561caa118c",
+                            DateCreated = new DateTime(2023, 7, 24, 17, 18, 54, 894, DateTimeKind.Local).AddTicks(6661),
+                            Email = "tranviendai@gmail.com",
+                            FullName = "Tran Vien Dai",
+                            Image = "https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png",
+                            IsActive = true,
+                            PasswordHash = "ypeBEsobvcr6wjGzmiPcTaeG7/gUfE5yuYB3ha/uSLs=",
+                            PhoneNumber = "0582072743",
+                            Role = "ADMIN",
+                            UserName = "a"
                         });
                 });
 

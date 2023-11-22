@@ -43,7 +43,7 @@ namespace JZTea.Controllers
                     postDate = e.postDate,
                     image = e.image,
                     description = e.description,
-                    isPublic = e.isPublish
+                    isPublish = e.isPublish
                 })
             }).ToListAsync();
             return Ok(category);

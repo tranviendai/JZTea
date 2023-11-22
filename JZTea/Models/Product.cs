@@ -10,7 +10,7 @@ namespace JZTea.Models
         public int? id { get; set; }
         [MaxLength(100)]
         public string? name { get; set; }
-        public string? image { get; set; }
+
         [Range(1, 100)]
         public int? discount { get; set; }
         [Range(0.1,50)]

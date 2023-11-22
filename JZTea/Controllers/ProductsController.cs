@@ -34,7 +34,8 @@ namespace JZTea.Controllers
                 image = e.image,
                 postDate = e.postDate,
                 description = e.description,
-                isPublic = e.isPublish
+                isPublish = e.isPublish,
+                categoryID = e.categoryID
             }).ToListAsync();
             if (_context.Product == null)
           {
@@ -60,15 +61,14 @@ namespace JZTea.Controllers
                 description = e.description,
                 postDate = e.postDate,
                 image = e.image,
-                isPublic = e.isPublish
-                
+                isPublish = e.isPublish,
+                categoryID = e.categoryID
             }).FirstOrDefaultAsync(i => i.id == id);
 
             if (product == null)
             {
                 return NotFound();
             }
-
             return Ok(product);
         }
 
@@ -81,8 +81,22 @@ namespace JZTea.Controllers
             {
                 return BadRequest();
             }
-
-            _context.Entry(product).State = EntityState.Modified;
+            var newProduct = new Product()
+            {
+                id = product.id,
+                name = product.name,
+                price = product.price,
+                discount = product.discount,
+                description = product.description,
+                postDate = product.postDate,
+                image = product.image,
+                isPublish = product.isPublish,
+                categoryID = product.categoryID
+            };
+           
+            _context.Entry(newProduct).State = EntityState.Modified;
+            _context.Entry(newProduct).Property(x => x.id).IsModified = false;
+            _context.Entry(newProduct).Property(x => x.postDate).IsModified = false;
 
             try
             {
@@ -100,7 +114,7 @@ namespace JZTea.Controllers
                 }
             }
 
-            return NoContent();
+            return Ok(newProduct);
         }
 
         // POST: api/Products
@@ -108,14 +122,23 @@ namespace JZTea.Controllers
         [HttpPost]
         public async Task<ActionResult<Product>> PostProduct(Product product)
         {
-          if (_context.Product == null)
-          {
-              return Problem("Entity set 'JZTeaContext.Product'  is null.");
-          }
-            _context.Product.Add(product);
+            var newProduct = new Product()
+            {
+                id = product.id,
+                name = product.name,
+                price = product.price,
+                discount = product.discount,
+                description = product.description,
+                postDate = DateTime.Now,
+                image = product.image,
+                isPublish = false,
+                categoryID = product.categoryID
+            };
+
+            await _context.Product.AddAsync(newProduct);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetProduct", new { id = product.id }, product);
+            return Ok(newProduct);
         }
 
         // DELETE: api/Products/5

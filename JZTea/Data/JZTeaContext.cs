@@ -4,14 +4,43 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using JZTea.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using System.Text;
+using System.Security.Cryptography;
 
 namespace JZTea.Data
 {
     public class JZTeaContext : DbContext
     {
+        
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+            var hasher = new PasswordHasher<User>();
+            builder.Entity<User>(entity =>
+            {
+
+                var sha = SHA256.Create();
+                var asByteArr = Encoding.Default.GetBytes("a"); //pass "a"
+                var hash = sha.ComputeHash(asByteArr);
+
+                entity.HasData(
+                    new User
+                    {
+                        Id = Guid.NewGuid().ToString(),
+                        FullName = "Tran Vien Dai",
+                        Email = "tranviendai@gmail.com",
+                        Image = "https://www.nicepng.com/png/full/128-1280406_view-user-icon-png-user-circle-icon-png.png",
+                        UserName = "a",
+                        PhoneNumber = "0582072743",
+                        PasswordHash = Convert.ToBase64String(hash),
+                        DateCreated = DateTime.Now,
+                        IsActive= true,
+                        Role = "ADMIN"
+                    });
+                entity.ToTable("User");
+            });
             builder.Entity<Category>(entity =>
             {
                 entity.HasData(
@@ -356,13 +385,13 @@ namespace JZTea.Data
             });
         }
         public JZTeaContext(DbContextOptions<JZTeaContext> options)
-            : base(options)
+    : base(options)
         {
         }
-
-        public DbSet<JZTea.Models.Product> Product { get; set; }
+        public DbSet<Product> Product { get; set; }
         public DbSet<Category> Category { get; set; }
         public DbSet<Voucher> Voucher { get; set; }
-        public DbSet<JZTea.Models.Topping> Topping { get; set; } = default!;
+        public DbSet<Topping> Topping { get; set; }
+        public DbSet<User> User { get; set; }
     }
 }
